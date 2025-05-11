@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
+</head>
+<body class="theme-default">
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">Dashboard</div>
+            <div id="sidebar-error" style="color: red; display: none;"></div>
+            <ul id="group-list"></ul>
+            <div class="cpu-section-sidebar">
+                <p>Versão: 1.00 (11/05/2025) <button class="background-icon" title="Mudar fundo">🖼️</button></p>
+            </div>
+        </aside>
+        <main class="content">
+            <section id="services-area"></section>
+        </main>
+    </div>
+    <div id="background-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="modal-close">×</span>
+            <h3>Selecionar Fundo</h3>
+            <div id="background-error" style="color: red; display: none;"></div>
+            <div id="background-list"></div>
+            <button class="default-theme">Tema Padrão</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

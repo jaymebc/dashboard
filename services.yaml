@@ -1,0 +1,33 @@
+groups:
+  - name: Home
+    services:
+      - name: Relógio
+        type: clock
+  - name: Web
+    services:
+      - name: Google
+        url: https://www.google.com
+        status_url: https://www.google.com
+        icon: google.png
+      - name: YouTube
+        url: https://www.youtube.com
+        status_url: https://www.youtube.com
+        icon: youtube.png
+      - name: Wikipedia
+        url: https://www.wikipedia.org
+        status_url: https://www.wikipedia.org
+        icon: wikipedia.png
+  - name: Ferramentas
+    services:
+      - name: Notion
+        url: https://www.notion.so
+        status_url: https://www.notion.so
+        icon: notion.png
+      - name: Trello
+        url: https://trello.com
+        status_url: https://trello.com
+        icon: trello.png
+      - name: Calculadora Online
+        url: https://www.desmos.com/calculator
+        status_url: https://www.desmos.com
+        icon: none
